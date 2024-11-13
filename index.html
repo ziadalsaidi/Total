@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع باقات استثمارية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>باقة استثمارية بأرباح يومية</h1>
+        <p>اختر الخطة الأنسب لك وابدأ في استثمار أموالك</p>
+    </div>
+
+    <div class="container">
+        <h2>خطط الاستثمار:</h2>
+        
+        <div class="plans">
+            <!-- Plan 500 -->
+            <div class="plan">
+                <h3>الخطة 500 جنيه</h3>
+                <p class="price">500 جنيه</p>
+                <p class="profit">أرباح يومية: 3%</p>
+                <button onclick="showPaymentPopup()">ابدأ الآن</button>
+            </div>
+
+            <!-- Plan 1500 -->
+            <div class="plan">
+                <h3>الخطة 1500 جنيه</h3>
+                <p class="price">1500 جنيه</p>
+                <p class="profit">أرباح يومية: 4%</p>
+                <button onclick="showPaymentPopup()">ابدأ الآن</button>
+            </div>
+
+            <!-- Plan 3000 -->
+            <div class="plan">
+                <h3>الخطة 3000 جنيه</h3>
+                <p class="price">3000 جنيه</p>
+                <p class="profit">أرباح يومية: 5%</p>
+                <button onclick="showPaymentPopup()">ابدأ الآن</button>
+            </div>
+
+            <!-- Plan 5000 -->
+            <div class="plan">
+                <h3>الخطة 5000 جنيه</h3>
+                <p class="price">5000 جنيه</p>
+                <p class="profit">أرباح يومية: 6%</p>
+                <button onclick="showPaymentPopup()">ابدأ الآن</button>
+            </div>
+
+            <!-- Plan 10000 -->
+            <div class="plan">
+                <h3>الخطة 10000 جنيه</h3>
+                <p class="price">10000 جنيه</p>
+                <p class="profit">أرباح يومية: 7%</p>
+                <button onclick="showPaymentPopup()">ابدأ الآن</button>
+            </div>
+
+            <!-- Plan 20000 -->
+            <div class="plan">
+                <h3>الخطة 20000 جنيه</h3>
+                <p class="price">20000 جنيه</p>
+                <p class="profit">أرباح يومية: 8%</p>
+                <button onclick="showPaymentPopup()">ابدأ الآن</button>
+            </div>
+        </div>
+
+        <div id="investmentInfo" style="margin-top: 20px;"></div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 موقع باقات استثمارية</p>
+    </div>
+
+    <!-- Popup for payment details -->
+    <div id="paymentPopup" class="popup">
+        <div class="popup-content">
+            <h3>طريقة الدفع: فودافون كاش</h3>
+            <p>لإتمام عملية الاستثمار، يرجى تحويل المبلغ إلى فودافون كاش باستخدام الرقم التالي:</p>
+            
+            <div class="payment-methods">
+                <!-- Vodafone Cash Payment Details -->
+                <div class="payment-method">
+                    <h4>فودافون كاش</h4>
+                    <p>رقم التحويل: 01032092547</p>
+                    <p>الرجاء إضافة صورة التحويل بعد الإتمام</p>
+                    <img src="https://via.placeholder.com/200x150.png?text=Screenshot+Vodafone+Cash" alt="صورة التحويل فودافون كاش">
+                </div>
+            </div>
+            
+            <button onclick="closePopup()">تم</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
